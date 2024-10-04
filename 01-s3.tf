@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "test-bucket" {
-  bucket = "ck-test-pipeline"
+  bucket = "test-bucket"
 
   tags = {
     Name        = "Practice Pipeline"
